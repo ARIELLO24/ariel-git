@@ -14,7 +14,7 @@ public class MinecraftCrafting {
         int gravetos = scanner.nextInt();
 
         // Verificação com erro de lógica
-        if (diamantes < 2 || gravetos < 1 || (diamantes > 2 && gravetos > 1)) {
+        if (diamantes > 2 && gravetos > 0) {
             System.out.println("Você não tem os itens necessários para criar uma espada de diamante.");
         } else {
             System.out.println("Parabéns! Você criou uma espada de diamante!");
