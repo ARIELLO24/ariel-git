@@ -13,6 +13,13 @@ if (pergunta1 === "32") {
     else {
         console.log("Resposta errada! O Neymar tem 1 Champions League.");
     }
+    var pergunta3 = ask.question("Quantas esposas o Neymar traiu? : ")
+    if (pergunta3 === "3") {
+        console.log("Você acertou! Nosso Neyney é bem saidinho...")
+    }
+    else {
+        console.log("Você errou... Talvez nem o Neymar saiba também.")
+    }
 }
 else {
     console.log("Se você não sabe nem isso, merece se retirar por favor!!!");
