@@ -1,2 +1,14 @@
 esse sao comandos sobre build
 
+1. Para a primeira build, instale todas as dependências NPM do projeto:
+```bash
+npm install
+```
+2. Transpile o projeto para javascript:
+```bash
+npm run build
+```
+3. Para executar, use:
+```bash
+npm start
+```
