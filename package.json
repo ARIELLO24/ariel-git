@@ -1,8 +1,21 @@
 {
   "devDependencies": {
-    "@types/node": "^22.9.1"
+    "@types/node": "^22.9.1",
+    "@types/readline-sync": "^1.4.8"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
-  }
+  },
+  "name": "ariel-git",
+  "description": "Este projeto foi desenvolvido para **demonstrar conhecimentos em Git e GitHub**. Ele contém exemplos práticos e configurações utilizadas durante o aprendizado e desenvolvimento.",
+  "version": "1.0.0",
+  "main": "neymar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/neymar.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

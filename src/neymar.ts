@@ -1,4 +1,4 @@
-const ask = require("readline-sync");
+import ask from "readline-sync";
 
 console.log("                          QUIZ DO NEYMA                               ");
 console.log("                                                                      ");
